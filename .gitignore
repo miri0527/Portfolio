@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### My Ignore ###
+application-dev.properties
+AdminLTE-3.2.0
+UI
+src/main/java/com/portfolio/home/HomeController.java
