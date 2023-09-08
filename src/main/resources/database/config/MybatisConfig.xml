@@ -4,5 +4,13 @@
   "https://mybatis.org/dtd/mybatis-3-config.dtd">
   
   <configuration>
+  	<typeAliases>
+  		<!--권한 테이블  -->
+  		<typeAlias type="com.portfolio.role.RoleVO" alias="RoleVO"/>
+  		<typeAlias type="com.portfolio.role.MemberRoleVO" alias="MemberRoleVO"/>
+  		<!-- 회원 테이블 -->
+  		<typeAlias type="com.portfolio.member.MemberVO" alias="MemberVO"/>
+  		<typeAlias type="com.portfolio.member.MemberFilesVO" alias="MemberFilesVO"/>
   	
+  	</typeAliases>
   </configuration>
